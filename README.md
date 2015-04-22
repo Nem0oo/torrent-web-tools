@@ -10,7 +10,7 @@ This is a Work-In-Progress collection of tools for use with the Maelstrom browse
 Generates optimized torrent files from static website files.
 
 **positional arguments:**
-  * *INPUT* -- One or more files or directories. 'index.html' is required for the torrent to automatically render a web page in the browser.
+  * *INPUT* -- One or more files or directories. 'index.html' must be in the root path of the torrent to automatically render a web page in the browser.
 
 **optional arguments:**
   * __-h__, __--help__ -- show this help message and exit
@@ -72,6 +72,6 @@ To disable order optimization, use the __--no-optimize-file-order__ command line
 
 ## License
 
-The contents of this repository are subject to the BitTorrent Open Source License Version 1.1 (the License). You may not copy or use this file, in either source code or executable form, except in compliance with the License. You may obtain a copy of the License at [http://www.bittorrent.com/license](http://www.bittorrent.com/license).
+The contents of this repository are subject to the BitTorrent Open Source License Version 1.2 (the License). You may not copy or use this file, in either source code or executable form, except in compliance with the License. You may obtain a copy of the License at [http://www.bittorrent.com/license](http://www.bittorrent.com/license).
 
 Software distributed under the License is distributed on an AS IS basis, WITHOUT WARRANTY OF ANY KIND, either express or implied.  See the License for the specific language governing rights and limitations under the License.
